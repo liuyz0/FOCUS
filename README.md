@@ -16,7 +16,7 @@ The pseudocode is given as follows and the code is in [focus.py](focus.py). The 
 
 ## Toy landscape
 
-Our picture of the LLM landscape is a narrowing valley. We scanned the best performance of different optimizers on this toy landscape. The best optimizer at a given condition is represented by a color (Adam: orange; Signum: yellow; FOCUS: blue), yielding the following phase diagram (panels a and b). The code can be found in ['./Toy'](./Toy/).
+Our picture of the LLM landscape is a narrowing valley. We scanned the best performance of different optimizers on this toy landscape. The best optimizer at a given condition is represented by a color (Adam: orange; Signum: yellow; FOCUS: blue), yielding the following phase diagram (panels a and b). The code can be found in ['./Toy'](./Toy/). See detailed explainations of the code in Appendix.
 
 <p align="center" width="100%">
 <img src="./assets/Fig-2-v2.png" alt="Alt Text" style="width:60%; min-width: 200px; display: block; margin: auto;">
@@ -24,7 +24,7 @@ Our picture of the LLM landscape is a narrowing valley. We scanned the best perf
 
 ## MNIST
 
-We found that small batch sizes (larger noise in gradient) indeed lead to Signum outperforming Adam in MNIST classification (above figure, panels c and d). The code for this is in ['./MNIST'](./MNIST/).
+We found that small batch sizes (larger noise in gradient) indeed lead to Signum outperforming Adam in MNIST classification (above figure, panels c and d). The code for this is in ['./MNIST'](./MNIST/). See detailed explainations of the code in Appendix.
 
 ## GPT-2
 
