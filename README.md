@@ -1,6 +1,6 @@
 # Good training may require FOCUS
 
-This is the github repo for the paper "FOCUS: First Order Concentrated Updating Scheme" [TBA].
+This is the github repo for the paper ["FOCUS: First Order Concentrated Updating Scheme"](https://arxiv.org/abs/2501.12243).
 
 Our results contribute to both scientific understanding of training dynamics and practical speedup in LLM pretraining. We propose a minimum model with sharp valley and gradient noise to study training dynamics. We then have a better understanding of Adam’s advantage in dealing with the sharpness and its limitation when gradient noise is large. Finally, we propose FOCUS using attraction force to squeeze into valleys without decreasing effective step size much, which gains actual speedup in training GPT-2 (small).
 
